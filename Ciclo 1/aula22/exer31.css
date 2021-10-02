@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+main, header, footer {
+    width: 80%;
+    background-color: darkgoldenrod;
+    margin: 10px auto 10px auto;
+}
+main {
+    height: 400px;
+}
+header {
+    height: 60px;
+}
+
+footer{
+    height: auto;
+}
+
+.ajustetamanho {
+    height: 30vh;
+    background-color: darkgreen;
+}
+.content-card > div, footer > div {
+    width:48%;
+    height: 200px;
+    background-color: darkslateblue;
+    
+}
+
+.flex {
+    display: flex;
+}
+.space-btw {
+    justify-content: space-between;
+}
+
+section{
+    margin-top: 10px 0 10px 0;
+    background-color: deepskyblue;
+}
+
+@media screen and (max-width:700px) {
+    body {
+background-color: black;
+    }
+}
+section {
+    height: auto;
+    flex-direction: column;
+}
+
+section > div, footer > div {
+    width:100%;
+    margin-bottom: 5px;
+}
